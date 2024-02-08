@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0f172a;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.gradient-name {
+  background: linear-gradient(to right, #fff, orange, #fff, #fff, orange, #fff);
+  background-clip: text;
+  background-size: 300% 300%;
+}
+
+::selection {
+  background-color: rgba(8, 150, 250);
+  color: #fff;
+}
